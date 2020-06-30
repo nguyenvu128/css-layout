@@ -1,8 +1,12 @@
+.container {
+    background: linear-gradient(180deg, rgba(244,245,249,1) 0%, rgba(211,216,232,1) 100%);
+}
 .wrapper {
+    padding-left: 429px;
     width: 980px;
     height: 638px;
     display: block;
-    background: linear-gradient(180deg, rgba(244,245,249,1) 0%, rgba(211,216,232,1) 100%);
+
     font-family: Arial, sans-serif;
 }
 

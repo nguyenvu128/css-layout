@@ -1,3 +1,7 @@
+.footer {
+
+}
+
 #contentCurve {
     border-bottom: 1px solid #dddfe2;
     font-size: 1px;
@@ -5,6 +9,8 @@
     margin-bottom: 8px;
 }
 .page-footer {
+    padding-left: 429px;
+    padding-top: 20px;
     color: #737373;
     margin: 0;
     width: 980px;
@@ -65,4 +71,9 @@
 .uiList li a:hover {
     text-decoration: underline;
     color: #385898;
+}
+
+.page-footer .copyright {
+    margin: 20px 0 ;
+    font-size: 11px;
 }
