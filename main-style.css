@@ -1,0 +1,166 @@
+.wrapper {
+    width: 980px;
+    height: 638px;
+    display: block;
+    background: linear-gradient(180deg, rgba(244,245,249,1) 0%, rgba(211,216,232,1) 100%);
+    font-family: Arial, sans-serif;
+}
+
+.wrapper .sidebar {
+    width: 580px;
+    float: left;
+}
+
+.wrapper .sidebar .decribe-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e385f;
+    padding-top: 40px;
+    width: 450px;
+}
+
+.wrapper .main {
+    float: left;
+    width: 400px;
+}
+
+.wrapper .main .text-register {
+    padding: 20px 0;
+}
+
+.wrapper .main .text-register .register {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.wrapper .main .text-register .fast-easy {
+    font-size: 19px;
+}
+
+.wrapper .main .form-register .info-input .first-name input {
+    margin-right: 8px;
+    float: left;
+    box-sizing: border-box;
+    width: 194px;
+}
+
+.wrapper .main .form-register .info-input .last-name input {
+    float: right;
+    box-sizing: border-box;
+    width: 194px;
+}
+
+.wrapper .main .form-register .info-input .phone-number input {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.wrapper .main .form-register .info-input .password input {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.wrapper .main .info-input input{
+    border: 1px solid #ccd0d5;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.wrapper .main .form-register .birthday {
+    display: inline-block;
+    width: 100%;
+}
+
+.text-font-style {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.margin-top-bottom {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.date-time select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #fff;
+    color: #1c1e21;
+}
+.radio-gender {
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+}
+
+.describe-register {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+
+.describe-register a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.describe-register a:actived {
+
+}
+
+p {
+    margin: 1em 0;
+}
+
+.register-button {
+    font-size: 19px;
+    font-weight: bold;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+}
+
+.border-button {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    margin: 10px 0;
+}
+
+.register-button:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.create-page {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.form-register .create-page a {
+    color: #385898;
+    text-decoration: none;
+}
+
+.form-register .create-page a:actived

@@ -1,0 +1,79 @@
+.header {
+    width: 980px;
+    display: flex;
+    font-family: sans-serif;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(75,103,161,0.9514180672268907) 0%, rgba(59,89,152,1) 70%);
+}
+
+
+.header .logo a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header .logo {
+    width: 170px;
+    height: 55px;
+    flex-grow: 1;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 1px;
+    border-color: grey;
+    padding: 10px;
+}
+
+.header .form-login .button-login {
+    border: 1px solid #ccd0d5;
+    background-color: #4267b2;
+    border-color: #29487d;
+    color: #FFF;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 3px 7px;
+}
+
+.header .form-login .button-login:hover {
+    background-color: #365899;
+    border-color: #29487d;
+}
+
+.header .form-login table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+.header .form-login table tbody tr {
+    display: table-row;
+}
+
+.header .form-login td {
+    color:#FFF;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 0 14px;
+    margin: 0;
+}
+
+.header .form-login input:focus {
+    outline: none;
+}
+
+.header .form-login .forgot {
+    margin-top: 5px;
+}
+
+.header .form-login .forgot a {
+    color: #9cb4d8;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none
+}
+
+.header .form-login .forgot a:hover {
+    text-decoration: underline;
+}
